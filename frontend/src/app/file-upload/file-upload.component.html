@@ -1,0 +1,4 @@
+<div>
+  <input type="file" (change)="uploadFile($event)" />
+  <div *ngIf="errorMessage" class="text-danger">{{ errorMessage }}</div>
+</div>
